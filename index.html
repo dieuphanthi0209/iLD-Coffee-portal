@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>iLD Coffee Việt Nam — Cổng Thông Tin Nội Bộ</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              primary: 'var(--color-primary)',
+              accent: 'var(--color-accent)',
+              danger: '#B42318',
+              warning: '#9A4A06',
+              success: '#2E7D32',
+            }
+          }
+        }
+      }
+    </script>
+  </head>
+  <body class="bg-[#F8FAFC] dark:bg-[#0B1620] text-[#1E293B] dark:text-[#E6EDF3] antialiased">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
